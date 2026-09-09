@@ -1,0 +1,58 @@
+# ================================
+# Python
+# ================================
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python testing/cache
+.pytest_cache/
+.mypy_cache/
+
+# ================================
+# Node.js
+# ================================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# ================================
+# Environment / secrets
+# ================================
+.env
+.env.*
+!.env.example
+
+# ================================
+# IDE
+# ================================
+.vscode/
+.idea/
+
+# ================================
+# OS
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# Logs
+# ================================
+*.log
+
+# ================================
+# Temporary files
+# ================================
+*.tmp
+*.temp
+
+# ================================
+# Audio generated during testing
+# ================================
+*.webm
+*.mp3
+*.ogg
+# Large Git LFS model - download separately
+ml/models/antideepfake/wav2vec2-small-antideepfake.onnx
