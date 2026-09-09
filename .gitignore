@@ -55,3 +55,5 @@ Thumbs.db
 *.mp3
 *.ogg
 # Large Git LFS model - download separately
+.vercel
+.env*
