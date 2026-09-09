@@ -55,4 +55,3 @@ Thumbs.db
 *.mp3
 *.ogg
 # Large Git LFS model - download separately
-ml/models/antideepfake/wav2vec2-small-antideepfake.onnx
