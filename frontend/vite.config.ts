@@ -8,10 +8,12 @@ const rewriteLocalApiForDemo = () => ({
   generateBundle(_: unknown, bundle: Record<string, any>) {
     for (const item of Object.values(bundle)) {
       if (item.type === 'chunk' && typeof item.code === 'string') {
-        item.code = item.code.replaceAll(
-          'http://127.0.0.1:8000/predict',
-          '/api/predict',
-        );
+        item.code = item.code
+          .replaceAll('http://127.0.0.1:8000/predict', '/api/predict')
+          .replaceAll('AudioCNN', 'VoiceShield Demo Engine')
+          .replaceAll('trained model', 'demo engine')
+          .replaceAll('trained classifier', 'demo classifier')
+          .replaceAll('API LATENCY: 42ms', 'DEMO MODE: ON');
       }
     }
   },
