@@ -1,0 +1,12 @@
+This is a placeholder. The real ONNX model file
+(wav2vec2-small-antideepfake.onnx, ~377 MB) is not included in this
+repository.
+
+To enable real ML inference:
+1. Obtain the real Wav2Vec2 AntiDeepfake ONNX model file.
+2. Place it at: ml/models/antideepfake/wav2vec2-small-antideepfake.onnx
+3. Restart the backend. It will automatically detect the real model
+   and stop using the demo heuristic fallback.
+
+Original expected sha256: 36ecc56f1f4b1a230e657b14c2d67702b7b01a0d6cb66ac4601497f12c3803d3
+Original expected size: 377935876 bytes

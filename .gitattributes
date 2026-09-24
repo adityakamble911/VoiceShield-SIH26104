@@ -1,0 +1,6 @@
+# NOTE: the real ONNX model (~377MB) is not committed to this repo.
+# ml/models/antideepfake/wav2vec2-small-antideepfake.onnx is currently
+# just a placeholder pointer file. If you add the real model later and
+# want to track it with Git LFS, uncomment the line below and run
+# `git lfs track` again after installing Git LFS.
+# ml/models/antideepfake/*.onnx filter=lfs diff=lfs merge=lfs -text

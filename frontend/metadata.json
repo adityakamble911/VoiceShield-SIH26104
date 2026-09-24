@@ -1,0 +1,6 @@
+{
+  "name": "VoiceShield — Voice Cloning Detection",
+  "description": "Production-ready voice cloning and deepfake audio detection platform with forensic waveform analysis and real-time scanning.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
